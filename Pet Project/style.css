@@ -1,0 +1,51 @@
+.site-header{
+    background-color: rgb(196, 96, 60);
+    color: white;
+}
+.display-1{
+    text-align: center;
+}
+h2{
+margin-left: 1rem;
+}
+.input-container{
+    display: flex;
+    padding: 1rem;
+    background-color: lightgray;
+    font-weight: 350;
+    text-decoration: underline;
+}
+.input-container label{
+    flex-basis: 10rem;
+}
+#btn-register{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+} 
+#pets{
+    display: flex;
+    justify-content: flex-start;
+}
+.pet{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 236, 116);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.pet-title{
+    display: table;
+    justify-content: space-between;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(89, 197, 197);
+}
+button:hover{
+    text-shadow: 1px 1px 1px;
+    background-color: rgb(139, 73, 86);
+}
